@@ -25,6 +25,7 @@ def main():
 
     items = ""
     price = 0
+    total = 0
     while items != "done":
         items = input("Please enter items you would like to buy from above\n"
                       "Enter item twice if you have two of same thing and so forth\n"
@@ -94,14 +95,7 @@ def main():
     if state == "Maine":
         total = price + (price * state_tax_maine)
         print("Total cost after tax ", "$", total)
-
-
-
-
-
-
-
-
+    return total
 
 
 if __name__ == '__main__':
