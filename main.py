@@ -6,7 +6,6 @@ def main():
     j = b+i
     return j
 
-
 if __name__ == '__main__':
     main()
 
